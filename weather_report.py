@@ -2,7 +2,7 @@ import requests
 import json
 import pyowm
 
-hello = pyowm.OWM('a823de587ceb031a9b0c50f6b055f974')
+hello = pyowm.OWM('API key')
 
 num= int(input('Enter the mobile number: '))
 city = raw_input('Enter the City name: ')
